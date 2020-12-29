@@ -1,0 +1,13 @@
+.idea
+/logs
+.env
+
+/nginx/ssl/*.crt
+/nginx/ssl/*.key
+/nginx/ssl/*.csr
+
+/.devcontainer/*
+!/.devcontainer/devcontainer.example.json
+!/.devcontainer/docker-compose.extend-example.yml
+
+.DS_Store
