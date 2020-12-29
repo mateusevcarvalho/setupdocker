@@ -49,7 +49,7 @@ RUN if [ ${PHP_INSTALL_MONGO} = true ]; then \
 ARG PHP_INSTALL_SOAP
 RUN if [ ${PHP_INSTALL_SOAP} = true ]; then \
         #Install soap
-        RUN docker-php-ext-install soap\
+        docker-php-ext-install soap \
     ;fi
 
 
